@@ -17,7 +17,7 @@ console.log(currentCity);
 // 4.Create a var variable called salary and initialize it with 25000. Redeclare it with 35000. Print the value.
 var employeeSalary = 25000;
 var employeeSalary = 35000;
-console.log(salary);
+console.log(employeeSalary);
 
 // 5.Create a var variable, assign a value, reassign it, and redeclare it. Print the final value.
 var score = 10; 
@@ -62,7 +62,7 @@ console.log(letAge);
 
 // 12.Create a let variable called salary, initialize it with 30000, then reassign it to 40000.
 let letSalary = 30000;
-salary = 40000;
+letSalary = 40000;
 console.log(letSalary);
 
 // 13.Create a let variable called name, assign your name, then change it to another name.
@@ -86,9 +86,9 @@ course = "JavaScript";
 console.log(course);
 
 // 17.Declare a let variable and then try to redeclare the same variable. Observe what happens.
-let duplicateAge = 25;
+/*let duplicateAge = 25;
 let duplicateAge = 30;
-console.log(duplicateAge); //SyntaxError: Identifier 'age' has already been declared
+console.log(duplicateAge); //SyntaxError: Identifier 'age' has already been declared */
 
 // 18.Create a let variable called city and reassign it two times. Print the final value.
 let letCity = "Chennai";
@@ -105,10 +105,10 @@ console.log(studentAge);
 console.log(studentDepartment);
 
 // 20.Create a let variable, initialize it, reassign it, and try to redeclare it.
-let age = 20; // Initialization
+/*let age = 20; // Initialization
 age = 25;     // Reassignment
 let age = 30; // Redeclaration attempt
-console.log(age); //SyntaxError: Identifier 'age' has already been declared
+console.log(age); //SyntaxError: Identifier 'age' has already been declared*/
 
 // const variable
 
@@ -121,18 +121,18 @@ const salary = 50000;
 console.log(salary);
 
 // 23.Create a constant variable named company with the value "Stackly" and print it.
-const company = "Stackly";
-console.log(company);
+const constantCompany = "Stackly";
+console.log(constantCompany);
 
 // 24.Try to reassign a const variable with another value. Observe the result.
-const reassignedAge = 25;
+/*const reassignedAge = 25;
 reassignedAge = 30;
-console.log(reassignedAge); //TypeError: Assignment to constant variable.
+console.log(reassignedAge); //TypeError: Assignment to constant variable.*/
 
 // 25.Try to redeclare a const variable. Observe the result.
-const company = "Stackly";
+/*const company = "Stackly";
 const company = "Google";
-console.log(company); //SyntaxError: Identifier 'company' has already been declared
+console.log(company); //SyntaxError: Identifier 'company' has already been declared*/
 
 // 26.Create a constant variable named college and assign your college name to it. Then print it.
 const college = "Kalasalingam Academy of Research and Education";
@@ -263,10 +263,10 @@ console.warn("This is a warning message.");
 console.error("This is an error message.");
 
 // 50.Write a program using console.log(), console.warn(), console.error(), and console.clear(). Observe what happens after each statement.
-console.log("JavaScript practice started.");
+/*console.log("JavaScript practice started.");
 
 console.warn("This is a warning.");
 
 console.error("This is an error.");
 
-console.clear(); //Console cleared successfully.
+console.clear(); //Console cleared successfully.*/
