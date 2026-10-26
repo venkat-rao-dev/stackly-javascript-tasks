@@ -17,6 +17,10 @@ function displayDateTime() {
         `Year: ${year} | Month: ${month} | Day: ${day}`;
 }
 
+// Display date and time immediately
+displayDateTime();
+
+// Update the time every second
 setInterval(displayDateTime, 1000);
 
 
