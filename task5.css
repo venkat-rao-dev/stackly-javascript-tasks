@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5fb;
+    color: #243047;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #29458c;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #667085;
+    margin-bottom: 25px;
+}
+
+.date-card {
+    background: #29458c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.date-card h2 {
+    margin-bottom: 12px;
+}
+
+.date-card p {
+    margin: 8px 0;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    font-size: 15px;
+    color: #667085;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #29458c;
+    margin-top: 10px;
+}
+
+.activities {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.activities h2 {
+    margin-bottom: 18px;
+}
+
+.activity {
+    border-left: 4px solid #29458c;
+    background: #f8faff;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+.activity h3 {
+    margin-bottom: 6px;
+}
+
+.activity p {
+    color: #667085;
+    margin-top: 5px;
+}
+
+.completed {
+    border-left-color: #16a34a;
+}
+
+@media (max-width: 600px) {
+    .summary {
+        grid-template-columns: 1fr;
+    }
+}
